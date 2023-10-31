@@ -5,11 +5,11 @@
 
 // Add extra styles here
 
+@import 'node_modules/nhsuk-frontend/packages/nhsuk';
 
 .big-header-block {
     background: #263135;
     color: white;
-    height: 190px;
     width: full-width;
     margin-top: -10px;
     padding: 30px;
@@ -118,6 +118,8 @@ color:  $govuk-link-colour;
     padding-top: 20px;
     padding-bottom: 5px;
 }
+
+
 .govuk-checkboxes__label:before {
     background: #fff;
 }
@@ -182,4 +184,35 @@ color:  $govuk-link-colour;
 
 .results-container {
     background-color: #D5EBFF;
+}
+
+// BPRC Edits
+
+.body-top-tasks {
+    background: #cdcdcf;
+    width: full-width;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.body-block2{
+    display: inline-block;
+    width: 200px;
+    margin-right: 300;
+    background-color: yellow;
+}
+
+.topic-cards {
+    border-top: 1px solid $govuk-border-colour;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.big-header-block2 {
+    background: #263135;
+    color: rgb(255, 255, 255);
+    height: 290px;
+    width: full-width;
+    margin-top: -10px;
+    padding: 30px;
 }
