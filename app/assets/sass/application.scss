@@ -202,6 +202,20 @@ color:  $govuk-link-colour;
     background-color: yellow;
 }
 
+.tab-block{
+    display: inline-block;
+    width: 20px;
+    margin-right: 100;
+    background-color: yellow;
+}
+
+.tab-block-text{
+    display: inline-block;
+    width: 200px;
+    margin-right: 300;
+    background-color: yellow;
+}
+
 .topic-cards {
     border-top: 1px solid $govuk-border-colour;
     padding-top: 20px;
