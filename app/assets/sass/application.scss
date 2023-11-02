@@ -202,20 +202,6 @@ color:  $govuk-link-colour;
     background-color: yellow;
 }
 
-.tab-block{
-    display: inline-block;
-    width: 20px;
-    margin-right: 100;
-    background-color: yellow;
-}
-
-.tab-block-text{
-    display: inline-block;
-    width: 200px;
-    margin-right: 300;
-    background-color: yellow;
-}
-
 .topic-cards {
     border-top: 1px solid $govuk-border-colour;
     padding-top: 20px;
@@ -229,4 +215,24 @@ color:  $govuk-link-colour;
     width: full-width;
     margin-top: -10px;
     padding: 30px;
+}
+
+.tab-block{
+    display: flex;
+    gap: 4em;
+    width: full-width;
+    height: 60px;
+    background-color: yellow;
+}
+
+.tab{
+    width: 150;
+
+    background-color: blue;
+}
+
+.tab-text{
+    margin-right: 500;
+
+    background-color: red;
 }
