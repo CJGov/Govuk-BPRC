@@ -13,12 +13,97 @@
 
 {% block content %}
 
+<div class="govuk-width-container">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h2 class="govuk-heading-m">Construction Industry Scheme (CIS)
+     
+    </h2>
+ 
+
+    <div class="tab-block govuk-!-padding-bottom-4">
+      <div class="tab-tran">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{govukTag({
+          text: "Guide",
+          classes: "govuk-tag--grey"
+        })}}
+      </div>
+      <div class="tab-text">
+        <a href="#" class="govuk-link govuk-link--no-visited-state">?</a>
+      </div>
+    </div>
+
+    <div class="container govuk-!-padding-bottom-4">
+      <div class="tab-tran">
+        {{govukTag({
+          text: "Transaction",
+          classes: "govuk-tag--green"
+        })}}
+      </div>
+      <div class="tab-text">
+        <a href="#" class="govuk-link govuk-link--no-visited-state">?</a>
+      </div>
+    </div>
+
+
+
+    <p class="govuk-body">
+      {{govukTag({
+        text: "Guide",
+        classes: "govuk-tag--grey"
+      })}} <a href="https://www.gov.uk/what-is-the-construction-industry-scheme" class="govuk-link govuk-link--no-visited-state">Construction Industry Scheme (CIS)</a>
+    </p>
+    <p class="govuk-body">
+      {{govukTag({
+        text: "Transaction",
+        classes: "govuk-tag--green"
+      })}}<a href="https://www.gov.uk/use-construction-industry-scheme-online" class="govuk-link govuk-link--no-visited-state">Sign in to the Construction Industry Scheme (CIS) online service</a>
+    </p>
+    <p class="govuk-body">
+      {{govukTag({
+        text: "Guide",
+        classes: "govuk-tag--grey"
+      })}}<a href="https://www.gov.uk/what-you-must-do-as-a-cis-contractor" class="govuk-link govuk-link--no-visited-state">What you must do as a Construction Industry Scheme (CIS) contractor</a>
+    </p>
+    <p class="govuk-body">
+      {{govukTag({
+        text: "Guide",
+        classes: "govuk-tag--grey"
+      })}}<a href="https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor" class="govuk-link govuk-link--no-visited-state">What you must do as a Construction Industry Scheme (CIS) subcontractor</a>
+    </p>
+    <p class="govuk-body">
+      {{govukTag({
+        text: "Guide",
+        classes: "govuk-tag--grey"
+      })}}<a href="https://www.gov.uk/government/publications/construction-industry-scheme-cis-340" class="govuk-link govuk-link--no-visited-state">Construction Industry Scheme: CIS 340</a>
+    </p>
+    <p class="govuk-body">
+      {{govukTag({
+        text: "Transaction",
+        classes: "govuk-tag--green"
+      })}}<a href="https://www.gov.uk/pay-construction-industry-scheme-cis-late-filing-penalty" class="govuk-link govuk-link--no-visited-state">Pay a Construction Industry Scheme (CIS) late filing penalty</a>
+    </p>
+    <p class="govuk-body">
+      {{govukTag({
+        text: "Transaction",
+        classes: "govuk-tag--green"
+      })}}<a href="https://www.gov.uk/guidance/claim-a-refund-of-construction-industry-scheme-deductions-if-youre-a-limited-company" class="govuk-link govuk-link--no-visited-state">Claim a refund of Construction Industry Scheme deductions if you're a limited company or an agent</a>
+    </p>
+
+    <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+            
+  
+</div>
+</div>
+
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
       <h1 class="govuk-heading-l">
         Heading goes here
       </h1>
+
+
 
       <p>
         This is a paragraph of text. It explains in more detail what has happened and wraps across several lines.
@@ -29,13 +114,30 @@
       </p>
 
 
+      
 
-      <div class="tab-block">
-        <div class="tab">
+
+
+
+      
+      <div class="container govuk-!-padding-bottom-2">
+        <div class="tab-tran">
           {{govukTag({
             text: "Transaction",
             classes: "govuk-tag--grey"
-          })}} &nbsp;
+          })}}
+        </div>
+        <div class="container">
+          <a href="#" class="govuk-link govuk-link--no-visited-state">Company Tax ReturnsCompany Tax ReturnsCompany Tax ReturnsCompany Tax Returns</a>
+        </div>
+      </div> 
+
+      <div class="tab-block govuk-!-padding-bottom-2">
+        <div class="tab-tran">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{govukTag({
+            text: "Guide",
+            classes: "govuk-tag--grey"
+          })}}
         </div>
         <div class="tab-text">
           <a href="#" class="govuk-link govuk-link--no-visited-state">Company Tax Returns</a>
@@ -43,7 +145,7 @@
       </div> 
 
       <div class="govuk-grid-row govuk-!-display-inline">
-        <div class="govuk-grid-column-three-third">
+        <div class="tab">
           {{govukTag({
             text: "Guide",
             classes: "govuk-tag--grey"
@@ -54,14 +156,16 @@
         </div>
       </div>
 
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-third">
+      <div class="govuk-body">
+        <div class="container">
           {{govukTag({
             text: "Transaction",
             classes: "govuk-tag--green"
           })}} 
         </div>
+        <div class="container">
         <a href="#" class="govuk-link govuk-link--no-visited-state">File your accounts and Company Tax Return</a>
+      </div>
         
       </div>
 

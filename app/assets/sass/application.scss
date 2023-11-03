@@ -219,20 +219,34 @@ color:  $govuk-link-colour;
 
 .tab-block{
     display: flex;
-    gap: 4em;
+    gap: 3em;
     width: full-width;
-    height: 60px;
-    background-color: yellow;
+    height: 60;
+    margin-bottom: 20;
+   
+}
+
+.tab-tran{
+    margin-bottom: 20;
+
 }
 
 .tab{
-    width: 150;
-
+    width: 138.38;
     background-color: blue;
 }
 
 .tab-text{
-    margin-right: 500;
-
-    background-color: red;
+    
+    //background-color: red;
 }
+
+.container{
+    display: flex;
+    grid-gap: 3em;
+    grid-template-columns:139px 2fr;
+    margin: 20;
+
+}
+
+
