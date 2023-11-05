@@ -191,8 +191,8 @@ color:  $govuk-link-colour;
 .body-top-tasks {
     background: #eeeef0;
     width: full-width;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .body-block2{
@@ -227,12 +227,18 @@ color:  $govuk-link-colour;
 }
 
 .tab-tran{
-    margin-bottom: 20;
+   grid: 2;
 
 }
 
+.tab-tran2{
+    display: grid;
+    
+ 
+ }
+
 .tab{
-    width: 138.38;
+    width: 500;
     background-color: blue;
 }
 
